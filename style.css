@@ -321,6 +321,20 @@ h1 {
     float: none;
     margin: auto;
   }
+  /* project section  */
+  
+.project-row {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.prod-land {
+  width: 90%;
+  float: none;
+  margin-right: auto;
+}
+
   h2 {
       font-size: 50px;
       margin-bottom: 10px;
@@ -352,9 +366,6 @@ h1 {
   .copyright {
       font-size: .8em;
       margin-top: 20px;
-  }
-  .prod-land {
-    width: 300px;
   }
   
 }
