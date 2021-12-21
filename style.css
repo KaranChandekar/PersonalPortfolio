@@ -178,6 +178,11 @@ a {
   color: #40514e;
 }
 
+/* project secton  */
+.prod-land {
+  width: 600px;
+}
+
 .bottom_container {
   background-color: #c5ded7;
   padding: 50px 0 20px;
@@ -337,6 +342,9 @@ h1 {
   .copyright {
       font-size: .8em;
       margin-top: 20px;
+  }
+  .prod-land {
+    width: 300px;
   }
   
 }
