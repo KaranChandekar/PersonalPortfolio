@@ -50,11 +50,9 @@ header ul li a {
   text-decoration: none;
 }
 
-.fa-bars {
-    color: #45b29a;
-    cursor: pointer;
-    margin: 0;
-    display: none;
+header ul li a:hover {
+    color: #40514e;
+    transition: all 0.3s ease-in-out;
   }
 
 /* Top Container  */
@@ -207,12 +205,11 @@ a {
 
 @media (max-width: 700px) {
   /* header  */
-
   .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 30px;
+    margin: 20px 10px;
   }
 
   #header_logo {
@@ -220,20 +217,12 @@ a {
   }
 
   nav ul {
-      text-align: right;
-    display: block;
-    width: 100%;
-    background-color: #93e4d2;
-    position: absolute;
-    top: 75px;
-    right: 0;
-    z-index: 2;
-    font-size: 20px;
-  }
-  nav ul li {
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
+    font-size: 16px;
+}
+nav ul li{
+    margin: 0 6px;
+    padding: 0;
+}
   .fa-bars {
     display: block;
   }
@@ -247,7 +236,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
     font-family: "Clicker Script", cursive;
-    font-size: 500%;
+    font-size: 450%;
     font-weight: 300;
     color: #45b29a;
   }
@@ -273,7 +262,7 @@ h1 {
   
   .top_container {
     background-color: #e4f9f5;
-    padding-top: 200px;
+    padding-top: 150px;
     position: relative;
   }
   
@@ -286,4 +275,62 @@ h1 {
   .bottom_cloud {
     display: none;
   }
+  .middle_container {
+    padding: 50px 0;
+  }
+  
+  .intro {
+    width: 90%;
+  }
+  hr {
+      margin: 50px auto;
+      width: 13%;
+  }
+  .skill-row {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .code_img {
+    width: 50%;
+    float: none;
+    margin: auto;
+  }
+  h3 {
+      font-size: 25px;
+  }
+  
+  .github_img {
+    width: 60%;
+    float: none;
+    margin: auto;
+  }
+  h2 {
+      font-size: 50px;
+      margin-bottom: 10px;
+  }
+  
+  .contact_description {
+    width: 90%;
+    margin: 40px auto 60px;
+  }
+  
+  .btn {
+    padding: 0.75em 2em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #44a384;
+    color: #40514e;
+  }
+  
+  .bottom_container {
+    background-color: #c5ded7;
+    padding: 50px 0 20px;
+  }
+  
 }
