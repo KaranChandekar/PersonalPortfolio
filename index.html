@@ -7,6 +7,10 @@
     <title>Karan The Developer</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="/images/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/6ecd0621d4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="header">
@@ -16,13 +20,15 @@
           src="images/profile_logo.png"
           alt="karan's profile"
         />
-        <ul>
-          <li><a href="#home">Home</a></li>
+        <ul id="menuList">
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <div onclick="togglemenu()">
+          <i class="fas fa-bars fa-3x"></i>
+        </div>
       </nav>
     </header>
     <div id="home" class="top_container">
@@ -41,6 +47,7 @@
       <img
         src="images/land.svg"
         alt="background_img"
+        class="land-img"
       />
     </div>
     <div id="about" class="middle_container">
@@ -108,5 +115,17 @@
       >
       <p class="copyright">© 2021 Karan Chandekar. All rights reservered.</p>
     </div>
+        <!-- javascript  -->
+        <script>
+          let menuList = document.getElementById("menuList");
+          menuList.style.maxHeight = "0px";
+          function togglemenu() {
+            if (menuList.style.maxHeight == "0px") {
+              menuList.style.maxHeight = "190px";
+            } else {
+              menuList.style.maxHeight = "0px";
+            }
+          }
+        </script>
   </body>
 </html>
