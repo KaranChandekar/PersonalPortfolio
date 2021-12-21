@@ -154,6 +154,19 @@ a {
   margin-left: 50px;
 }
 
+.project-row {
+  width: 65%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.prod-land {
+  width: 50%;
+  float: left;
+  margin-right: 50px;
+}
+
+
 .intro {
   width: 30%;
   margin: auto;
@@ -179,9 +192,6 @@ a {
 }
 
 /* project secton  */
-.prod-land {
-  width: 600px;
-}
 
 .bottom_container {
   background-color: #c5ded7;
