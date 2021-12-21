@@ -329,8 +329,13 @@ h1 {
   }
   
   .bottom_container {
-    background-color: #c5ded7;
-    padding: 50px 0 20px;
+    padding: 30px 0 10px;
+  }
+  .bottom_container a {
+      margin: 0 10px;
+  }
+  .copyright {
+      font-size: .8em;
   }
   
 }
