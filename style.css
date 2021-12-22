@@ -51,9 +51,9 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: #40514e;
-    transition: all 0.3s ease-in-out;
-  }
+  color: #40514e;
+  transition: all 0.3s ease-in-out;
+}
 
 /* Top Container  */
 
@@ -166,7 +166,6 @@ a {
   margin-right: 50px;
 }
 
-
 .intro {
   width: 30%;
   margin: auto;
@@ -192,7 +191,37 @@ a {
 }
 
 /* project secton  */
+.project-row {
+  width: 65%;
+  margin: 100px auto;
+  text-align: left;
+}
 
+.prod-land {
+  width: 50%;
+  float: left;
+  margin-right: 50px;
+}
+
+.tech-doc {
+  width: 50%;
+  float: right;
+  margin-left: 50px;
+}
+
+.survey-form {
+  width: 50%;
+  float: left;
+  margin-right: 50px;
+}
+
+.tribute-page {
+  width: 50%;
+  float: right;
+  margin-left: 50px;
+}
+
+/* bottom container  */
 .bottom_container {
   background-color: #c5ded7;
   padding: 50px 0 20px;
@@ -233,11 +262,11 @@ a {
 
   nav ul {
     font-size: 16px;
-}
-nav ul li{
+  }
+  nav ul li {
     margin: 0 6px;
     padding: 0;
-}
+  }
   .fa-bars {
     display: block;
   }
@@ -245,9 +274,9 @@ nav ul li{
     overflow: hidden;
     transition: 0.5s;
   }
-  
+
   /* home container  */
-h1 {
+  h1 {
     margin-top: 0;
     margin-bottom: 0;
     font-family: "Clicker Script", cursive;
@@ -255,32 +284,32 @@ h1 {
     font-weight: 300;
     color: #45b29a;
   }
-  
+
   p {
     line-height: 2;
     font-size: 1.2em;
   }
-  
+
   hr {
     border: dotted rgb(202, 202, 202) 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
   }
-  
+
   #description {
     font-size: 140%;
     font-weight: 110px;
     margin-top: 50;
     color: #45b29a;
   }
-  
+
   .top_container {
     background-color: #e4f9f5;
     padding-top: 150px;
     position: relative;
   }
-  
+
   .land-img {
     width: 100%;
   }
@@ -293,79 +322,96 @@ h1 {
   .middle_container {
     padding: 50px 0;
   }
-  
+
   .intro {
     width: 90%;
   }
   hr {
-      margin: 50px auto;
-      width: 13%;
+    margin: 50px auto;
+    width: 13%;
   }
   .skill-row {
     width: 90%;
     margin: 50px auto;
     text-align: center;
   }
-  
+
   .code_img {
     width: 50%;
     float: none;
     margin: auto;
   }
   h3 {
-      font-size: 25px;
+    font-size: 25px;
   }
-  
+
   .github_img {
     width: 60%;
     float: none;
     margin: auto;
   }
   /* project section  */
-  
-.project-row {
-  width: 90%;
-  margin: 50px auto;
-  text-align: center;
-}
 
-.prod-land {
-  width: 90%;
-  float: none;
-  margin-right: auto;
-}
+  .project-row {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .prod-land {
+    width: 90%;
+    float: none;
+    margin-right: auto;
+  }
+
+  .tech-doc {
+    width: 90%;
+    float: none;
+    margin-left: auto;
+  }
+
+  .survey-form {
+    width: 90%;
+    float: none;
+    margin-right: auto;
+  }
+
+  .tribute-page {
+    width: 90%;
+    float: none;
+    margin-left: auto;
+  }
 
   h2 {
-      font-size: 50px;
-      margin-bottom: 10px;
+    font-size: 50px;
+    margin-bottom: 10px;
   }
-  
+
   .contact_description {
     width: 90%;
     margin: 40px auto 60px;
   }
-  
+
   .btn {
     padding: 0.75em 2em;
     text-decoration: none;
     border-radius: 4px;
     transition: 0.3s;
   }
-  
+
   .btn:hover {
     background-color: #44a384;
     color: #40514e;
   }
-  
+
   .bottom_container {
     padding: 30px 0 10px;
   }
   .bottom_container a {
-      margin: 0 10px;
+    margin: 0 10px;
   }
   .copyright {
-      font-size: .8em;
-      margin-top: 20px;
+    font-size: 0.8em;
+    margin-top: 20px;
   }
-  
 }
