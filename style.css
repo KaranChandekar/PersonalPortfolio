@@ -13,6 +13,7 @@ body {
   text-align: center;
   color: #40514e;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 /* header  */
