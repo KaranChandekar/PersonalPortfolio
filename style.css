@@ -2,10 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "Josefin Sans", sans-serif;
   margin: 0;
@@ -271,7 +267,7 @@ a {
   .fa-bars {
     display: block;
   }
-  #menuList {
+  #nav__links {
     overflow: hidden;
     transition: 0.5s;
   }
