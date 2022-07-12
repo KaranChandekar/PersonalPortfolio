@@ -12,48 +12,61 @@
     <header class="header">
       <nav class="nav">
         <img
-          id="header_logo"
           src="images/profile_logo.png"
           alt="karan's profile"
+          class="nav__logo"
         />
-        <ul id="nav__links">
-          <li><a class="nav__link" href="#skills">Skills</a></li>
-          <li><a class="nav__link" href="#projects">Projects</a></li>
-          <li><a class="nav__link" href="#contact">Contact</a></li>
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#about">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#skills">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#projects">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
-    </header>
-    <div id="home" class="top_container">
-      <img
-        class="top_cloud"
-        src="CSS - My Site Images/cloud.png"
-        alt="cloud_img"
-      />
-      <h1>I'm Karan.</h1>
-      <p id="description">a web developer.</p>
-      <img
-        class="bottom_cloud"
-        src="CSS - My Site Images/cloud.png"
-        alt="cloud_img"
-      />
-      <img src="images/land.svg" alt="background_img" class="land-img" />
-    </div>
-    <section id="about" class="middle_container">
-      <div class="profile">
+
+      <div class="header__title">
         <img
-          id="profile_logo"
-          src="/images/profileLogo.png"
-          alt="karan's profile"
+          class="top_cloud"
+          src="CSS - My Site Images/cloud.png"
+          alt="cloud_img"
         />
-        <h2 class="hello_article">Hello.</h2>
-        <p class="intro">
-          1st year student, learning 💚 <strong>web development</strong>. I have
-          huge passion in web design, I love to create websites with HTML, CSS
-          and JavaScript.
-        </p>
+        <h1 class="name__title">I'm Karan.</h1>
+        <p id="description">a web developer.</p>
+        <img
+          class="bottom_cloud"
+          src="CSS - My Site Images/cloud.png"
+          alt="cloud_img"
+        />
+        <img src="images/land.svg" alt="background_img" class="land-img" />
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="about_container" id="about">
+        <div class="about__container-content">
+          <img
+            id="profile_logo"
+            src="/images/profileLogo.png"
+            alt="karan's profile"
+          />
+          <h2 class="hello_article">Hello.</h2>
+          <p class="intro">
+            1st year student, learning 💚 <strong>web development</strong>. I
+            have huge passion in web design, I love to create websites with
+            HTML, CSS and JavaScript.
+          </p>
+        </div>
       </div>
       <hr />
-      <section id="skills" class="skills">
+      <section id="skills" class="skills_container">
         <h2>My Skills.</h2>
         <div class="skill-row">
           <img
@@ -83,57 +96,106 @@
       <section id="projects" class="projects">
         <h2>Projects</h2>
         <div class="project-row">
-          <img class="prod-land"  src="images/prod-land.jpg" alt="Product Landing Page">
+          <img
+            class="prod-land"
+            src="images/prod-land.jpg"
+            alt="Product Landing Page"
+          />
           <h3>Product Landing Page</h3>
-          <p>I created a responsive Product Landing Page using HTML, CSS and little bit JavaScript. This project is a part of freeCodeCamp responsive web design course</p>
-          <p><a href="https://product-landing-page-karanchandekar.vercel.app/">Visit</a></p>
+          <p>
+            I created a responsive Product Landing Page using HTML, CSS and
+            little bit JavaScript. This project is a part of freeCodeCamp
+            responsive web design course
+          </p>
+          <p>
+            <a href="https://product-landing-page-karanchandekar.vercel.app/"
+              >Visit</a
+            >
+          </p>
         </div>
         <div class="project-row">
-          <img class="tech-doc"  src="images/tech-doc page.jpg" alt="">
+          <img class="tech-doc" src="images/tech-doc page.jpg" alt="" />
           <h3>Technical Documentation Page</h3>
-          <p>I created this Technical Documentation Page with HTML and CSS. For this project I refer MDN Doc. This page is a documentation for JavaScript. A responsive one.</p>
-          <p><a href="https://tech-doc-page-karanchandekar.vercel.app/">Visit</a></p>
+          <p>
+            I created this Technical Documentation Page with HTML and CSS. For
+            this project I refer MDN Doc. This page is a documentation for
+            JavaScript. A responsive one.
+          </p>
+          <p>
+            <a href="https://tech-doc-page-karanchandekar.vercel.app/">Visit</a>
+          </p>
         </div>
         <div class="project-row">
-          <img class="survey-form"  src="images/survey-form.jpg" alt="">
+          <img class="survey-form" src="images/survey-form.jpg" alt="" />
           <h3>Survey Form</h3>
-          <p>I have created a simple survey form. This survey form is created with HTML and CSS and its fully responsive. This project is taken from freeCodeCamp responsive web design course challenge!</p>
-          <p><a href="https://survey-form-karanchandekar.vercel.app/">Visit</a></p>
+          <p>
+            I have created a simple survey form. This survey form is created
+            with HTML and CSS and its fully responsive. This project is taken
+            from freeCodeCamp responsive web design course challenge!
+          </p>
+          <p>
+            <a href="https://survey-form-karanchandekar.vercel.app/">Visit</a>
+          </p>
         </div>
         <div class="project-row">
-          <img class="tribute-page"  src="images/tribute-page.jpg" alt="">
+          <img class="tribute-page" src="images/tribute-page.jpg" alt="" />
           <h3>Tribute Page</h3>
-          <p>I have created a webpage which is tribute for Dr. Norman borlaug. He is American agricultural scientist, plant pathologist, and winner of the Nobel Prize for Peace in 1970..</p>
-          <p><a href="https://tribute-page-karanchandekar.vercel.app/">Visit</a></p>
+          <p>
+            I have created a webpage which is tribute for Dr. Norman borlaug. He
+            is American agricultural scientist, plant pathologist, and winner of
+            the Nobel Prize for Peace in 1970..
+          </p>
+          <p>
+            <a href="https://tribute-page-karanchandekar.vercel.app/">Visit</a>
+          </p>
         </div>
       </section>
       <hr />
       <section id="contact" class="contact-me">
-        <h2>Get In Touch.</h2>
-        <h3>How can I help you?</h3>
-        <p class="contact_description">
-          As now, I am a learner but still I can make great things and design
-          websites. So, If you have a project and think you need my help with
-          something, then contact me.
-        </p>
-        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+        <div class="contact__me-content">
+          <h2 class="contact-title">Get In Touch.</h2>
+          <h3 class="help-title">How can I help you?</h3>
+          <p class="contact_description">
+            As now, I am a learner but still I can make great things and design
+            websites. So, If you have a project and think you need my help with
+            something, then contact me.
+          </p>
+          <button class="contact-btn"><a href="mailto:karanchandekar431@gmail.com">CONTACT ME</a></button>
+          
+        </div>
       </section>
     </section>
 
-    <section class="bottom_container">
-      <a
-        class="footer-link"
-        href="https://www.linkedin.com/in/karan-chandekar-a87263219/"
-        >LinkedIn</a
-      >
-      <a class="footer-link" href="https://twitter.com/karan_chandekar"
-        >Twitter</a
-      >
-      <a class="footer-link" href="https://github.com/KaranChandekar/"
-        >Github</a
-      >
-      <p class="copyright">© 2021 Karan Chandekar. All rights reservered.</p>
-    </section>
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a
+            class="footer__link"
+            href="https://www.linkedin.com/in/karan-chandekar-a87263219/"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="https://twitter.com/karan_chandekar"
+            >Twitter</a
+          >
+        </li>
+
+        <li class="footer__item"></li>
+        <a class="footer__link" href="https://github.com/KaranChandekar/"
+          >Github</a
+        >
+      </ul>
+      <p class="footer__copyright">
+        &copy; 2021
+        <a
+          href="https://twitter.com/karanchandekar1"
+          class="footer__link twitter-link"
+          >Karan Chandekar</a
+        >
+        . All rights reservered.
+      </p>
+    </footer>
 
     <!-- JavaScript -->
     <script src="script.js"></script>
