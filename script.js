@@ -1,51 +1,56 @@
-"use strict";
+function myFunction(x) {
+  if (x.matches) {
+    let layer1 = document.getElementById("bottom-cloud");
+    scroll = window.pageYOffset;
+    document.addEventListener("scroll", function (e) {
+      let offset = window.pageYOffset;
+      scroll = offset;
+      layer1.style.left = 3 + scroll / 30 + "%";
+    });
 
-const nav = document.querySelector(".nav");
-const navLinks = document.querySelector(".nav__links");
+    let layer2 = document.getElementById("top-cloud");
+    scroll = window.pageYOffset;
+    document.addEventListener("scroll", function (e) {
+      let offset = window.pageYOffset;
+      scroll = offset;
+      layer2.style.left = 70 + scroll / 30 + "%";
+    });
 
-// Page navigation
-navLinks.addEventListener("click", function (e) {
-  console.log(e.target);
-  e.preventDefault();
-  // Matching Strategy
-  if (e.target.classList.contains("nav__link")) {
-    const id = e.target.getAttribute("href");
-    console.log(id);
-    document.querySelector(id).scrollIntoView({ behavior: "smooth" });
-  }
-});
+    let layer3 = document.getElementById("mountain");
+    scroll = window.pageYOffset;
+    document.addEventListener("scroll", function (e) {
+      let offset = window.pageYOffset;
+      scroll = offset;
+      layer3.style.top = 55 + scroll / 30 + "%";
+    });
+  } else {
+    let layer1 = document.getElementById("bottom-cloud");
+    scroll = window.pageYOffset;
+    document.addEventListener("scroll", function (e) {
+      let offset = window.pageYOffset;
+      scroll = offset;
+      layer1.style.left = 15 + scroll / 30 + "%";
+    });
 
-// Menu fade animation
-const handleHover = function (e) {
-  if (e.target.classList.contains("nav__link")) {
-    const link = e.target;
-    const siblings = link.closest(".nav").querySelectorAll(".nav__link");
-    siblings.forEach((el) => {
-      if (el !== link) el.style.opacity = this;
+    let layer2 = document.getElementById("top-cloud");
+    scroll = window.pageYOffset;
+    document.addEventListener("scroll", function (e) {
+      let offset = window.pageYOffset;
+      scroll = offset;
+      layer2.style.left = 75 + scroll / 30 + "%";
+    });
+
+    let layer3 = document.getElementById("mountain");
+    scroll = window.pageYOffset;
+    document.addEventListener("scroll", function (e) {
+      let offset = window.pageYOffset;
+      scroll = offset;
+      layer3.style.top = 41 + scroll / 10 + "%";
     });
   }
-};
-
-// Passing 'argument' into handler
-nav.addEventListener("mouseover", handleHover.bind(0.5));
-
-nav.addEventListener("mouseout", handleHover.bind(1));
-
-// Sticky navigation: Intersection observer API
-const header = document.querySelector('.header');
-const navHeight = nav.getBoundingClientRect().height;
-// console.log(navHeight);
-
-const stickyNav = entries => {
-  const [entry] = entries;
-  // console.log(entry);
-  if (!entry.isIntersecting) nav.classList.add('sticky');
-  else nav.classList.remove('sticky');
-};
-
-const headerObserver = new IntersectionObserver(stickyNav, {
-  root: null,
-  threshold: 0,
-  rootMargin: `-${navHeight}px`,
-});
-headerObserver.observe(header);
+}
+if (matchMedia) {
+  const x = window.matchMedia("(max-width: 1050px)");
+  x.addListener(myFunction);
+  myFunction(x);
+}
