@@ -1,6 +1,8 @@
+/* Common Style */
 body {
   margin: 0;
 }
+
 h1 {
   color: #0f4c75;
   font-family: "Tangerine", cursive;
@@ -8,6 +10,7 @@ h1 {
   margin: 50px auto 0 auto;
   text-align: center;
 }
+
 #h1 {
   color: #0f4c75;
   font-family: "Tangerine", cursive;
@@ -15,6 +18,7 @@ h1 {
   margin: 50px auto 0 auto;
   text-align: center;
 }
+
 #p1 {
   color: #0f4c75;
   font-family: "Baloo Chettan 2", cursive;
@@ -23,6 +27,7 @@ h1 {
   text-align: center;
   margin: 0;
 }
+
 .p2 {
   line-height: 2;
   display: block;
@@ -31,31 +36,37 @@ h1 {
   font-size: 18px;
   padding: 0 15% 0 15%;
 }
+
 h2 {
   color: #0f4c75;
   font-family: "Tangerine", cursive;
   font-size: 50px;
 }
+
 h3 {
   font-family: "Baloo Chettan 2", cursive;
   color: #3282b8;
   padding: 0;
 }
+
 .h3_1 {
   color: #000;
 }
+
 .head {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   line-height: 0;
 }
+
 .head3 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   padding: 0;
 }
+
 p {
   line-height: 2;
   display: block;
@@ -64,6 +75,7 @@ p {
   font-size: 16px;
   padding: 0 auto 0 auto;
 }
+
 .p3 {
   line-height: 1.5;
   font-family: "Montserrat", sans-serif;
@@ -72,13 +84,16 @@ p {
   padding: 0 5% 0 5%;
   color: #fff;
 }
+
 .projectslink {
   color: #0f4c75;
   font-family: "Montserrat", sans-serif;
 }
+
 .projectslink:hover {
   color: #000;
 }
+
 hr {
   margin: 80px auto 80px auto;
   border-style: dotted none none;
@@ -86,6 +101,7 @@ hr {
   width: 5%;
   border-color: #3282b8;
 }
+
 .f-link {
   color: orange;
   text-decoration: none;
@@ -98,18 +114,22 @@ header {
   align-items: center;
   padding: 2% 15%;
 }
+
 .logo {
   width: 75px;
   height: 75px;
   cursor: pointer;
 }
+
 ul {
   list-style: none;
 }
+
 ul li {
   display: inline-block;
   padding: 0px 15px;
 }
+
 ul li a {
   transition: all 0.3s ease 0s;
   text-decoration: none;
@@ -117,12 +137,15 @@ ul li a {
   font-family: "Baloo Chettan 2", cursive;
   color: #0f4c75;
 }
+
 ul li a.active {
   color: black;
 }
+
 ul li a:hover {
   color: #1b262c;
 }
+
 .top-container {
   width: 100%;
   height: 650px;
@@ -132,6 +155,7 @@ ul li a:hover {
   overflow: hidden;
   padding-top: 20px;
 }
+
 .top-container:before {
   content: "";
   position: absolute;
@@ -141,6 +165,7 @@ ul li a:hover {
   z-index: 1000;
   background: linear-gradient(transparent, #fff);
 }
+
 @keyframes flying {
   0% {
     bottom: -100px;
@@ -154,108 +179,203 @@ ul li a:hover {
     transform: translateX(-200px);
   }
 }
+
 .middle-container {
   background-color: white;
   text-align: center;
 }
+
+.midlogo {
+  width: 140px;
+  height: 140px;
+  padding-top: 80px;
+}
+
 .profile {
   width: 50%;
   margin-left: 25%;
   margin-bottom: 5%;
 }
+
 .skills {
   width: 50%;
   margin-left: 25%;
   text-align: center;
 }
+
 .skill_img {
   width: 80px;
   margin: 0 15px;
 }
-.project1 {
-  width: 100%;
-  height: auto;
-  background: #31355b;
-}
+
+/* Project Section */
 .content {
   width: 50%;
   margin-left: 25%;
   padding-bottom: 30px;
 }
+
 .project_img {
   width: 80%;
   height: auto;
   padding: 30px 0 0 0;
 }
-.mainbtn {
-  color: #fff;
-  background: #4299ed;
-  border-radius: 30px;
-  padding: 16px 86px;
-  text-align: center;
-  letter-spacing: 0.5px;
-  text-decoration: none;
-  line-height: 86px;
-  font-size: 18px;
-  margin-top: 30px;
-  transition: 0.8s all;
-  margin-bottom: 40px;
+
+.project1 {
+  width: 100%;
+  height: auto;
+  background: #31355b;
 }
-.mainbtn:hover {
-  color: #fff;
-  background: #1680e6;
-}
-.btn2 {
-  background: #005361;
-}
-.btn2:hover {
-  background: #00272e;
-}
-.btn3 {
-  color: #8c6c07;
-  background: #fae298;
-}
-.btn3:hover {
-  background: #f8d467;
-  color: #8c6c07;
-}
-.btn4 {
-  background: #2b3d51;
-}
-.btn4:hover {
-  background: #192430;
-}
-.btn5 {
-  background: #374760;
-}
-.btn5:hover {
-  background: #242f40;
-}
+
 .project2 {
   width: 100%;
   height: auto;
   background: #f8c687;
 }
+
 .project3 {
   width: 100%;
   height: auto;
   background: #21364b;
 }
+
 .project4 {
   width: 100%;
   height: auto;
   background: #7dcc93;
 }
+
 .project5 {
   width: 100%;
   height: auto;
   background: #f76160;
 }
+
+.project6 {
+  width: 100%;
+  height: auto;
+  background: #e29470;
+}
+
+.project7 {
+  width: 100%;
+  height: auto;
+  background: #66a7d5;
+}
+
+.project8 {
+  width: 100%;
+  height: auto;
+  background: #679895;
+}
+
+.project9 {
+  width: 100%;
+  height: auto;
+  background: #31355b;
+}
+
+.project10 {
+  width: 100%;
+  height: auto;
+  background: #f8c687;
+}
+
+.video {
+  width: 90%;
+  margin: 5rem 0 2rem 0;
+  border-radius: 0.5rem;
+  opacity: 0.8;
+  box-shadow: 0.3rem 0.3rem 0.5rem #111;
+  transition: all 0.5s;
+}
+
+.video:hover {
+  opacity: 1;
+  box-shadow: 0.5rem 0.5rem 1rem #111;
+}
+
+.mainbtn {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  padding: 10px 25px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  line-height: 86px;
+  font-size: 20px;
+  margin-top: 30px;
+  transition: 0.8s all;
+  margin-bottom: 40px;
+}
+
+.btn-1 {
+  background: #4299ed;
+}
+
+.btn-1:hover {
+  background: #2574bf;
+}
+
+.btn-2 {
+  background: #005361;
+}
+
+.btn-2:hover {
+  background: #00272e;
+}
+
+.btn-3 {
+  color: #8c6c07;
+  background: #fae298;
+}
+
+.btn-3:hover {
+  background: #f8d467;
+  color: #8c6c07;
+}
+
+.btn-4 {
+  background: #2b3d51;
+}
+
+.btn-4:hover {
+  background: #192430;
+}
+
+.btn-5 {
+  background: #374760;
+}
+
+.btn-5:hover {
+  background: #242f40;
+}
+
+.btn-6 {
+  background: #ee672e;
+}
+
+.btn-6:hover {
+  background: #ce672d;
+}
+
+.btn-7 {
+  color: #3e90ca;
+  background: #a8d7f9;
+}
+
+.btn-7:hover {
+  background: #87cdff;
+}
+/* End of Project Section */
+
+/* Contact Section */
 .contact-me {
   width: 50%;
-  margin-left: 25%;
-  margin-bottom: 20%;
+  margin: 5% 25% 20% 25%;
 }
+/* End of Contact Section */
 
 #top-cloud {
   position: absolute;
@@ -270,19 +390,17 @@ ul li a:hover {
   bottom: 70%;
   z-index: 10;
 }
+
 #mountain {
   position: absolute;
   width: 60%;
   height: 400px;
   bottom: 0;
-  left: 25%;
+  left: 20%;
   z-index: 1;
 }
-.midlogo {
-  width: 140px;
-  height: 140px;
-  padding-top: 80px;
-}
+
+/* Footer Section */
 #f {
   position: fixed;
   bottom: 0;
@@ -292,6 +410,7 @@ ul li a:hover {
   width: 100%;
   height: 220px;
 }
+
 .flogo {
   width: 85px;
   height: 85px;
@@ -299,16 +418,18 @@ ul li a:hover {
   left: 15%;
   top: 33%;
 }
+
 .link {
   display: flex;
   position: absolute;
-  top: 5%;
-  left: 41%;
+  top: 33%;
+  right: 10%;
 }
+
 .footer-link {
   color: #11999e;
   font-family: "Baloo Chettan 2", cursive;
-  margin: 15px 12px;
+  margin: 15px 15px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -316,32 +437,36 @@ ul li a:hover {
 .footer-link:hover {
   color: #eaf6f6;
 }
+
 .footer-social-icons ul {
   margin: 0px;
   padding: 0px;
   display: flex;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%);
 }
+
 .footer-social-icons ul li {
   margin: 0 15px;
   list-style: none;
 }
+
 .footer-social-icons ul li a {
   position: relative;
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   text-align: center;
-  line-height: 70px;
+  line-height: 50px;
   background: #fff;
   border-radius: 50%;
-  font-size: 30px;
+  font-size: 25px;
   color: #666;
   transition: -5s;
 }
+
 .footer-social-icons ul li a:before {
   content: "";
   position: absolute;
@@ -354,23 +479,28 @@ ul li a:hover {
   transform: scale(0.9);
   z-index: -1;
 }
+
 .footer-social-icons ul li a:hover:before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #11999e;
 }
+
 .footer-social-icons ul li a:hover {
   color: #11999e;
   box-shadow: 0 0 5px #11999e;
   text-shadow: 0 0 5px #11999e;
 }
+
 .copyright {
   position: absolute;
-  bottom: 1%;
-  left: 41%;
+  bottom: 3%;
+  left: 40.5%;
   text-align: center;
   color: #eaf6f6;
   font-size: 0.85rem;
 }
+/* End of Footer Section */
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
