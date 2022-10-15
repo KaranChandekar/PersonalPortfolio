@@ -116,8 +116,8 @@ header {
 }
 
 .logo {
-  width: 75px;
-  height: 75px;
+  width: 150px;
+  border-radius: 50rem;
   cursor: pointer;
 }
 
@@ -183,12 +183,6 @@ ul li a:hover {
 .middle-container {
   background-color: white;
   text-align: center;
-}
-
-.midlogo {
-  width: 140px;
-  height: 140px;
-  padding-top: 80px;
 }
 
 .profile {
@@ -412,11 +406,11 @@ ul li a:hover {
 }
 
 .flogo {
-  width: 85px;
-  height: 85px;
+  width: 150px;
+  border-radius: 50rem;
   position: absolute;
   left: 15%;
-  top: 33%;
+  top: 25%;
 }
 
 .link {
