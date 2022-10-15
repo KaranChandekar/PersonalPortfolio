@@ -185,6 +185,10 @@ ul li a:hover {
   text-align: center;
 }
 
+.mid-logo {
+  margin-top: 80px;
+}
+
 .profile {
   width: 50%;
   margin-left: 25%;
@@ -564,7 +568,6 @@ ul li a:hover {
   }
   .logo {
     width: 180px;
-    height: 180px;
   }
   ul li a {
     font-size: 3rem;
@@ -605,9 +608,8 @@ ul li a:hover {
     width: 90%;
     margin-left: 5%;
   }
-  .midlogo {
+  .mid-logo {
     width: 310px;
-    height: 310px;
   }
   h2 {
     font-size: 140px;
@@ -687,7 +689,6 @@ ul li a:hover {
     top: 10%;
     left: 38%;
     width: 240px;
-    height: 240px;
   }
   .link {
     top: 45%;
