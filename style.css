@@ -617,7 +617,8 @@ ul li a:hover {
   .p2 {
     line-height: 1.2;
     font-size: 60px;
-    padding: 0;
+    padding: 0 30px;
+    text-align: justify;
   }
   hr {
     width: 10%;
@@ -647,6 +648,7 @@ ul li a:hover {
   }
   .p3 {
     font-size: 45px;
+    text-align: justify;
   }
   .front {
     width: 45%;
