@@ -16,6 +16,7 @@ I created my personal portfolio using HTML and CSS. This project is a part of fr
 
 - HTML
 - CSS
+- JavaScript
 
 ## 🚀 About Me
 
