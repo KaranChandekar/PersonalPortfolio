@@ -308,11 +308,13 @@ ul li a:hover {
   margin-bottom: 40px;
 }
 
-.btn-1 {
+.btn-1,
+.btn-9 {
   background: #4299ed;
 }
 
-.btn-1:hover {
+.btn-1:hover,
+.btn-9:hover {
   background: #2574bf;
 }
 
@@ -365,6 +367,14 @@ ul li a:hover {
 
 .btn-7:hover {
   background: #87cdff;
+}
+
+.btn-8 {
+  background-color: #5d8986;
+}
+
+.btn-8:hover {
+  background-color: #4d7472;
 }
 /* End of Project Section */
 
