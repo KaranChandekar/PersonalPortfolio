@@ -208,9 +208,11 @@ ul li a:hover {
 
 /* Project Section */
 .content {
-  width: 50%;
-  margin-left: 25%;
-  padding-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0;
 }
 
 .project_img {
@@ -280,8 +282,7 @@ ul li a:hover {
 }
 
 .video {
-  width: 90%;
-  margin: 5rem 0 2rem 0;
+  width: 50%;
   border-radius: 0.5rem;
   opacity: 0.8;
   box-shadow: 0.3rem 0.3rem 0.5rem #111;
@@ -291,6 +292,10 @@ ul li a:hover {
 .video:hover {
   opacity: 1;
   box-shadow: 0.5rem 0.5rem 1rem #111;
+}
+
+.video-description {
+  width: 40%;
 }
 
 .mainbtn {
@@ -666,7 +671,6 @@ ul li a:hover {
   }
   .p3 {
     font-size: 45px;
-    text-align: justify;
   }
   .front {
     width: 45%;
@@ -679,17 +683,19 @@ ul li a:hover {
     border-radius: 35px;
   }
   .content {
-    width: 90%;
-    margin-left: 5%;
     padding-bottom: 30px;
+    flex-direction: column;
   }
   .skill_img {
     width: 160px;
   }
-  .project_img {
-    width: 100%;
+  .video {
+    width: 90%;
     height: auto;
     padding: 10% 0 5% 0;
+  }
+  .video-description {
+    width: 90%;
   }
   .mainbtn {
     line-height: 200px;
