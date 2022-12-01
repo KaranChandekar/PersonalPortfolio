@@ -276,7 +276,7 @@ ul li a:hover {
 .project10 {
   width: 100%;
   height: auto;
-  background: #f8c687;
+  background: #ff559c;
 }
 
 .video {
@@ -375,6 +375,14 @@ ul li a:hover {
 
 .btn-8:hover {
   background-color: #4d7472;
+}
+
+.btn-10 {
+  background-color: #e41c6f;
+}
+
+.btn-10:hover {
+  background-color: #d01d68;
 }
 /* End of Project Section */
 

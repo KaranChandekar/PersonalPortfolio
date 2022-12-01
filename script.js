@@ -60,7 +60,6 @@ const videos = document.querySelectorAll(".video");
 videos.forEach((video) => {
   video.addEventListener("mouseover", () => {
     video.play();
-    console.log('video');
   });
   video.addEventListener("mouseout", () => {
     video.pause();
