@@ -2,16 +2,6 @@
 
 I created my personal portfolio using HTML, CSS and JavaScript. Created to showcase my skills and projects.
 
-## Know More
-
-- [Visit my portfolio](https://portfolio-me-karanchandekar.vercel.app/)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-## Creater
-
-- [@KaranChandekar](https://github.com/KaranChandekar)
-
 ## Languages
 
 - HTML
@@ -20,11 +10,11 @@ I created my personal portfolio using HTML, CSS and JavaScript. Created to showc
 
 ## 🚀 About Me
 
-I'm a Learner with huge passion in web development...
+I'm a self tought frontend web developer...
 
-## 🔗 Links
+## 🔗 Connect with me
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio-me-karanchandekar.vercel.app/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://karanchandekar.netlify.app)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karan-chandekar-a87263219/)
 
