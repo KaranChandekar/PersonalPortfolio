@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-I created my personal portfolio using HTML and CSS. This project is a part of freeCodeCamp responsive web design course challenge, and this is responsive one!
+I created my personal portfolio using HTML, CSS and JavaScript. This project is a part of freeCodeCamp responsive web design course challenge, and this is responsive one!
 
 ## Know More
 
