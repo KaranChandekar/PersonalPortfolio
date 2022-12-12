@@ -1,31 +1,18 @@
 # Personal Portfolio
-
-I created my personal portfolio using HTML and CSS. This project is a part of freeCodeCamp responsive web design course challenge, and this is responsive one!
-
-## Know More
-
-- [Visit my portfolio](https://portfolio-me-karanchandekar.vercel.app/)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-## Creater
-
-- [@KaranChandekar](https://github.com/KaranChandekar)
+I created my personal portfolio using HTML, CSS and JavaScript. Created to showcase my skills and projects.
 
 ## Languages
-
 - HTML
 - CSS
 - JavaScript
 
+## Demo 
+https://user-images.githubusercontent.com/93200960/207068012-59f64879-840c-4d9f-a248-f0686c640da8.mp4
+
 ## 🚀 About Me
+I'm a self tought frontend web developer...
 
-I'm a Learner with huge passion in web development...
-
-## 🔗 Links
-
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio-me-karanchandekar.vercel.app/)
-
+## 🔗 Connect with me
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://karanchandekar.netlify.app)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karan-chandekar-a87263219/)
-
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/karanchandekar1)
