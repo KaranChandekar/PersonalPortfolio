@@ -205,6 +205,10 @@ ul li a:hover {
   margin: 0 15px;
 }
 
+.btn {
+  margin-top: 10px;
+}
+
 /* Project Section */
 .content {
   width: 100%;
@@ -319,6 +323,16 @@ ul li a:hover {
   margin-top: 30px;
   transition: 0.8s all;
   margin-bottom: 40px;
+}
+
+.btn {
+  border: none;
+  margin-top: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn-1,
