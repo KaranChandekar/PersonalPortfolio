@@ -115,7 +115,7 @@ header {
 }
 
 .logo {
-  width: 150px;
+  width: 100px;
   border-radius: 50rem;
   cursor: pointer;
 }
@@ -185,6 +185,7 @@ ul li a:hover {
 }
 
 .mid-logo {
+  width: 140px;
   margin-top: 80px;
 }
 
@@ -554,7 +555,7 @@ ul li a:hover {
 }
 
 .flogo {
-  width: 150px;
+  width: 100px;
   border-radius: 50rem;
   position: absolute;
   left: 15%;
