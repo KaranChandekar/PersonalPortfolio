@@ -203,7 +203,7 @@ ul li a:hover {
 
 .skill_img {
   width: 60px;
-  margin: 0 15px;
+  margin: 0 15px 30px 15px;
 }
 
 .btn {
@@ -848,7 +848,7 @@ ul li a:hover {
   }
   .link {
     top: 45%;
-    left: 20%;
+    left: 30%;
   }
   .footer-link {
     font-size: 50px;
