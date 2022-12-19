@@ -791,7 +791,7 @@ ul li a:hover {
     line-height: 1;
   }
   .p3 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .front {
     width: 45%;
@@ -800,8 +800,9 @@ ul li a:hover {
     width: 45%;
   }
   .btn {
-    font-size: 40px;
+    font-size: 50px;
     border-radius: 35px;
+    padding: 30px 50px;
   }
   .content {
     padding-bottom: 30px;
