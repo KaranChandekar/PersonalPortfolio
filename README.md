@@ -1,5 +1,4 @@
 # Personal Portfolio
-
 I created my personal portfolio using HTML, CSS and JavaScript. Created to showcase my skills and projects.
 
 ## Languages
